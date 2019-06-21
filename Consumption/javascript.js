@@ -60,7 +60,7 @@ d3.json("consumption.json", function(funds) {
       .on("drag", dragmove));
  
   node.append("a")
-	  .attr("xlink:href", function(d){return d.urln;})
+	  .attr("xlink:href", function(d){return "https://"+d.urln;})
       .append("rect")
       .attr("height", function(d) { return d.dy; })
       .attr("width", sankey.nodeWidth())
