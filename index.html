@@ -3,13 +3,245 @@
   <head>
     <title>bihisankey diagram</title>
     <link href="style.css" rel="stylesheet">
-  </head>
+	
+	<style>
+
+.left{
+  float:left;
+}
+.right{
+    float:right;
+}
+
+div.wrap {
+    overflow:hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+  color: black;
+  
+}
+
+.active {
+  background-color: lightblue;
+  color: black;
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: navy;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+</style>
+</head>
+
   <body>
-    <div id="chart" align="center"></div>
+
+
+<div class="wrap">
+    <div class="left"><img id ="ttl" src="statscanada.png" alt="Statsistic Canada" style="width:500px; height:50px;"></div>
+    <div class="right"><img id ="se" src="ubc.png" alt="UBC" style="width:500px; height:60px;" HSPACE=”50”><br></div>
+</div>
+<ul>
+  <li><a class="active" href="index.html">Data Model</a></li>
+  <li><a href="viz.html">Data Statistics</a></li>
+  <li><a href="statsdata.html">Statistics Data</a></li>
+     <li><a href="feedback.html">Feedback</a></li>
+</ul>
+
+
+
+<div id="datamodel" class="tabcontent">
+<br>
+<div>
+<h1 style="color: navy; ">Statcan Food Model</h1>
+</div>
+
+<strong>
+<table align="center"  cellspacing="10">
+<tr>
+<th>
+<button class="favorite styled"
+        type="button" style="width:100%" onclick="location.href='Food_supply/food_supply.html';">
+   <b> Food Supply</b>
+</button>
+</th>
+<th>
+<button class="favorite styled"
+        type="button" style="width:100%" onclick="location.href='distribution/distribution.html';">
+    <b>Distribution</b>
+</button>
+</th>
+
+<th>
+<button class="favorite styled"
+        type="button" style="width:100%"  onclick="location.href='consumption/consumption.html';">
+   <b> Consumption</b>
+</button>
+</th>
+<th>
+<button class="favorite styled"
+        type="button" style="width:100%" onclick="location.href='utilization/utilization.html';">
+   <b> Utilization </b>
+</button>
+</th>
+<th>
+<button class="favorite styled"
+        type="button" style="width:100%" onclick="location.href='health/Health.html';">
+    <b>Health Outcome </b>
+</button>
+</th>
+</tr>
+
+<tr>
+<td>
+<a href="statsdata.html?uc=Consumer Demand"> Consumer Demand</a>
+</td>
+<td>
+<a href="statsdata.html?uc=Access and Equity Issues, Education Information Advertising"> Access and Equity Issues, Education Information Advertising </a>
+</td>
+<td>
+<a href="statsdata.html?uc=Food Consumed"> Food Consumed </a>
+</td>
+<td>
+<a href="statsdata.html?uc=Nutrients and Non-nutrients Metabolic Utilization">Nutrients and Non-nutrients Metabolic Utilization</a>
+</td>
+<td>
+<a href="statsdata.html?uc=Food Insecurity">Food Insecurity</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="statsdata.html?uc=Food Availability & Storage">Food Availability & Storage</a>
+</td>
+<td>
+<a href="statsdata.html?uc=Food Acquired">Food Acquired</a>
+</td>
+<td>
+<a href="statsdata.html?uc=Food Spending">Food Spending</a>
+</td>
+<td>
+<a href="statsdata.html?uc=Supplements and Natural Health Products">Supplements and Natural Health Products</a>
+</td>
+<td>
+<a href="statsdata.html?uc=Health Status, Outcomes, Morbidity, Mortality">Health Status, Outcomes, Morbidity, Mortality</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="statsdata.html?uc=Food Production/Hunting/Harvesting">Food Production/Hunting/Harvesting</a>
+</td>
+<td>
+<a href="statsdata.html?uc=Food Disposition">Food Disposition</a>
+</td>
+<td>
+<a href="statsdata.html?uc=Nutrient and Non-nutrient Intakes">Nutrient and Non-nutrient Intakes</a>
+</td>
+<td>
+&nbsp
+</td>
+<td>
+&nbsp
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="statsdata.html?uc=Food for Sale/Intended for consumption">Food for Sale/Intended for consumption</a>
+</td>
+<td>
+<a href="statsdata.html?uc=Food price">Food price</a>
+</td>
+<td>
+&nbsp
+</td>
+<td>
+&nbsp
+</td>
+<td>
+&nbsp
+</td>
+</tr>
+<tr>
+<td>
+<a href="statsdata.html?uc=Imports and Exports">Imports and Exports</a>
+</td>
+<td>
+<a href="statsdata.html?uc=Other">Other</a>
+</td>
+<td>
+&nbsp
+</td>
+<td>
+&nbsp
+</td>
+<td>
+&nbsp
+</td>
+</tr>
+
+</table>
+
+</strong>
+  <div id="chart" align="center"></div>
 	
     
-    <script type="text/javascript"  src="d3.v3.min.js"></script>
-    <script type="text/javascript"  src="bihisankey.js"></script>
-    <script type="text/javascript"  src="app.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://cdn.rawgit.com/Neilos/bihisankey/master/bihisankey.js"></script>
+    <script src="app.js"></script>
+	
+	
+	<p>The data is created based on approximations and is for visualization purpose only.</p>
+
+	<script>
+    function visitPage(){
+        window.location='Food_supply/food_supply.html';
+    }
+</script>
   </body>
+  
+  
+  
 </html>

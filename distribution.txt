@@ -1,0 +1,29 @@
+{
+"nodes":[
+{"name":"Available food supply + Traditional foods","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Available food supply + Traditional foods"},
+{"name":"Food for sale, intended to be eaten at home/eaten","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Food for sale"},
+{"name":"Food acquired","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Food acquired"},
+{"name":"Transport","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Transport"},
+{"name":"Food Composition","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Food Composition"}
+
+],
+
+
+
+
+
+
+
+"links":[
+
+{"source": 0 ,"target": 1 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 1 ,"target": 2 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 3 ,"target": 1 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 4 ,"target": 1 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 4 ,"target": 0 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="}
+
+
+
+
+
+]}

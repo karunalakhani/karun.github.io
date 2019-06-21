@@ -1,0 +1,28 @@
+{
+"nodes":[
+
+{"name":"Food consumed","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Food consumed"},
+{"name":"Nutrient & nonnutrient intakes","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Nutrient & nonnutrient intakes"},
+{"name":"Nutrient & non-nutrient metabolic utilization:","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Nutrient and non-nutrient"},
+{"name":"Supplements and natural health products","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Supplements and natural health products"},
+{"name":"Food Preference","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Food Preference"},
+{"name":"Age, sex, physical status, activity/lifestyle","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Age, sex, physical status, activity/lifestyle"},
+{"name":"Existing health status and nutrient requirements","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Existing health status and nutrient requirements"},
+{"name":"Contaminants in foods","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Contaminants in foods"}
+
+],
+
+"links":[
+{"source": 0 ,"target": 1 ,"value": 500 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 1 ,"target": 2 ,"value": 500 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 3 ,"target": 1 ,"value": 500 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 3 ,"target": 2 ,"value": 500 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 4 ,"target": 5 ,"value": 500 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 5 ,"target": 6 ,"value": 500 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 6 ,"target": 2 ,"value": 500 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 5 ,"target": 1 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 7 ,"target": 1 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="}
+
+
+]
+}

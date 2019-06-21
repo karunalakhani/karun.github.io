@@ -1,0 +1,25 @@
+{
+"nodes":[
+
+{"name":"Nutrient & non-nutrient metabolic utilization:","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Nutrient and non-nutrient"},
+{"name":"Supplements and natural health products","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Supplements and natural health products"},
+{"name":"Genetic expression","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Genetic expression"},
+{"name":"Health status, outcomes morbidity, mortality","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Health status, outcomes morbidity, mortality"},
+{"name":"Housing, sanitation, occupation, services","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Housing, sanitation, occupation, services"},
+{"name":"Food Preference","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Food Preference"}
+],
+
+"links":[
+
+{"source": 0 ,"target": 2 ,"value": 500 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 1 ,"target": 0 ,"value": 500 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 2 ,"target": 3 ,"value": 500 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 0 ,"target": 3 ,"value": 500 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 1 ,"target": 2 ,"value": 500 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 1 ,"target": 3 ,"value": 500 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 4 ,"target": 3 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 4 ,"target": 5 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="}
+
+
+]
+}

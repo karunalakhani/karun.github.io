@@ -1,0 +1,38 @@
+{
+"nodes":[
+{"name":"Food production Hunting and Harvesting","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Food+production+Hunting+and+Harvesting"},
+{"name":"Imports","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Imports"},
+{"name":"Exports","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Exports"},
+{"name":"Wastage, non-food use, animal food","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Wastage+non-food use, animal food"},
+{"name":"Storage","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Storage"},
+{"name":"Available food supply + Traditional foods","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Available food supply + Traditional foods"},
+{"name":"Food Processing","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Food Processing"},
+{"name":"Health status, outcomes morbidity, mortality","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Health status, outcomes morbidity, mortality"},
+{"name":"Environmental and Agricultural Influences","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Environmental and Agricultural Influences"},
+{"name":"Transport","urln":"www150.statcan.gc.ca/n1/en/type/data?text=Transport"}
+
+],
+
+
+
+
+
+
+
+"links":[
+
+{"source": 0 ,"target": 6 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 1 ,"target": 6 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 2 ,"target": 6 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 3 ,"target": 6 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 4 ,"target": 6 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 5 ,"target": 6 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 6 ,"target": 7 ,"value": 200 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 6 ,"target": 8 ,"value": 500 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="},
+{"source": 9 ,"target": 0 ,"value": 500 , "url":"www150.statcan.gc.ca/n1/en/type/data?text="}
+
+
+
+
+
+]}
