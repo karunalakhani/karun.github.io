@@ -33,7 +33,7 @@ table {
 th {
   padding: 1em;
   
-  text-align: left; min-width: 0px; max-width: 280px; white-space: normal; 
+  text-align: left; min-width: 0px; max-width: 500px; white-space: normal; 
   background-color: rgb(0, 0, 51); 
   color: white; 
   border-top: 1px solid rgb(211, 211, 211);
